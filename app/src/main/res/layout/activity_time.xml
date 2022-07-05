@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smart.smartqreditor.ice.smart.smartqreditor.activity.TimeActivity">
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/oo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/start_time"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/oo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ooo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cal"
+        android:layout_marginLeft="10dp"
+        android:text="@string/end_time"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/cal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ooo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/time_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/cal2"
+        android:layout_toLeftOf="@id/ttt"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <View
+        android:id="@+id/ttt"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/cal2"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/time_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/cal2"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/ttt"
+        android:gravity="center"
+        android:text="@string/YES"
+        android:textColor="#4CAF50"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

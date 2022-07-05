@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/29129/AndroidProjects/CreativeQRMaker/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/drawable/cale_edit_bg.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/drawable/text_web.xml" value="0.2305" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/drawable/web_tv_bg.xml" value="0.2305" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/drawable/wem_com_bg.xml" value="0.2305" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/drawable/wifi_radio_bg.xml" value="0.2305" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_create.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_exit.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_facebook.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_history.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_pay_pal.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_qrcode.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_calendar.xml" value="0.2" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_contacts.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_email.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_facebook.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_instagram.xml" value="0.264" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_paypal.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_sms.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_tel.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_text.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_twitter.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_viber.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_website.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_whatsapp.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_wi_fi.xml" value="0.125" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_result_youtube.xml" value="0.264" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_save_copy.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_save_shcoopy.xml" value="0.1" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_scan.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_settings.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_share.xml" value="0.264" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_text.xml" value="0.1" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_website.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_whatsapp.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_wi_fi.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/activity_youtube.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/layout_create_category.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/layout_create_toolbar.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/list_create_item.xml" value="0.1" />
+        <entry key="..\:/Users/29129/AndroidProjects/creative-qr-maker/app/src/main/res/layout/sfaf.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/cale_edit_bg.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/create_bg.xml" value="0.2305" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/exit_yes.xml" value="0.2305" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/main_bg.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/result_copy.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/result_pic_bg.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/sada.xml" value="0.232" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/scan_layout_bg.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/shape_list_create_item.xml" value="0.2305" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/text_web.xml" value="0.232" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/web_tv_bg.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/wem_com_bg.xml" value="0.189" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/drawable/wifi_radio_bg.xml" value="0.1205" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_calendar.xml" value="0.2" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_create.xml" value="0.176" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_email.xml" value="0.152" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_exit.xml" value="0.2" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_facebook.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_history.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_instagram.xml" value="0.536" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_linkman.xml" value="0.176" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_note.xml" value="0.176" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_pay_pal.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_phone.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_qrcode.xml" value="0.176" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_calendar.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_contacts.xml" value="0.2" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_email.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_facebook.xml" value="0.6" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_instagram.xml" value="0.152" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_paypal.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_sms.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_tel.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_text.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_twitter.xml" value="0.16" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_viber.xml" value="0.2" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_website.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_whatsapp.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_wi_fi.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_result_youtube.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_scan.xml" value="0.2734375" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_settings.xml" value="0.176" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_start.xml" value="0.16" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_text.xml" value="0.176" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_time.xml" value="0.176" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_twitter.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_viber.xml" value="0.2" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_website.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_whatsapp.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_wi_fi.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/activity_youtube.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/custom_camera.xml" value="0.2" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/layout_create_category.xml" value="0.2" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/layout_create_toolbar.xml" value="0.264" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/list_create_item.xml" value="0.4" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/list_record_item.xml" value="0.2" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/record_view1.xml" value="0.176" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/app/src/main/res/layout/record_view2.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/countrypicker/src/main/res/layout/activity_pick.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/countrypicker/src/main/res/layout/dialog_country_picker.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/countrypicker/src/main/res/layout/item_country.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/countrypicker/src/main/res/layout/item_country_large_padding.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/countrypicker/src/main/res/layout/item_letter.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/zxinglib/src/main/res/layout/camera.xml" value="0.109375" />
+        <entry key="..\:/Users/29129/CreativeQRMaker/zxinglib/src/main/res/layout/fragment_capture.xml" value="0.109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

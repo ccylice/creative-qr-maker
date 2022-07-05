@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ice.ccylice.creative">
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 闪光灯 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 允许访问振动设备 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="ice.ccylice.creative.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartQREditor"
+        tools:replace="android:name">
+        <activity
+            android:name="ice.ccylice.creative.activity.ExitActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:name="ice.ccylice.creative.activity.StartActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveViberActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveTwitterActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveCalendarActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveInstagramActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveSMSActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveEmailActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveTelActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveContactsActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SavePaypalActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveWhatsappActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveYoutubeActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveFacebookActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveWiFiActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveWebsiteActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.save_activity.SaveTextActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.activity.QRcodeActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.activity.SettingsActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.activity.HistoryActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.activity.CreateActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.activity.ScanActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateTextActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateCalendarActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateEmailActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateFacebookActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateInstagramActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateLinkmanActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateNoteActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreatePayPalActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreatePhoneActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateTwitterActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateViberActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateWebsiteActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateWhatsappActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateWiFiActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateYoutubeActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.create_activity.CreateTimeActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="ice.ccylice.creative.activity.MainActivity"
+            android:exported="true"
+            android:screenOrientation="nosensor" />
+
+<!--        <provider-->
+<!--            android:name="androidx.core.content.FileProvider"-->
+<!--            android:authorities="${applicationId}.provider"-->
+<!--            android:exported="false"-->
+<!--            android:grantUriPermissions="true">-->
+<!--            <meta-data-->
+<!--                android:name="android.support.FILE_PROVIDER_PATHS"-->
+<!--                android:resource="@xml/file_paths" />-->
+<!--        </provider>-->
+    </application>
+
+</manifest>

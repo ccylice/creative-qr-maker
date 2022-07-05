@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/layout_create_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/sss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/include_icon"
+                    layout="@layout/layout_create_category" />
+
+                <TextView
+                    android:id="@+id/zzz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_below="@id/include_icon"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:text="@string/name"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/linkman_input1"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/zzz"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/cale_edit_bg"
+                    android:gravity="left|center"
+                    android:textColor="@color/white"
+                    android:textColorHint="#4E5375 " />
+
+                <TextView
+                    android:id="@+id/zzx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_below="@id/linkman_input1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:text="@string/phone_number"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/linkman_input2"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/zzx"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/cale_edit_bg"
+                    android:gravity="left|center"
+                    android:textColor="@color/white"
+                    android:textColorHint="#4E5375 " />
+
+                <TextView
+                    android:id="@+id/zzs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:layout_below="@id/linkman_input2"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:text="@string/email_address"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/linkman_input3"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/zzs"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/cale_edit_bg"
+                    android:gravity="left|center"
+                    android:textColor="@color/white"
+                    android:textColorHint="#4E5375 " />
+
+                <TextView
+                    android:id="@+id/link_create"
+                    android:layout_width="220dp"
+                    android:layout_height="54dp"
+                    android:layout_below="@+id/linkman_input3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="64dp"
+                    android:background="@drawable/create_bg"
+                    android:gravity="center"
+                    android:text="@string/Create"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

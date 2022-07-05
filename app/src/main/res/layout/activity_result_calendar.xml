@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp_bg"
+    tools:context=".save_activity.SaveTextActivity">
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/layout_create_toolbar" />
+
+
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/shape_list_create_item"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/result_contacts_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:text="@string/Calendar"
+            android:textColor="#3CB7D3"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_website_input"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_contacts_title"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="23dp"
+            android:text="@string/title"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/res_cal_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_contacts_title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="21dp"
+            android:layout_toRightOf="@id/result_website_input"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/result_website_input2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_website_input"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/start"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/res_cal_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/res_cal_tv1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@id/result_website_input2"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/result_website_input3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_website_input2"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/end"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/res_cal_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/res_cal_tv2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@id/result_website_input3"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/result_website_input4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_website_input3"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/description"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/res_cal_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/res_cal_tv3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@id/result_website_input3"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+        <include
+            android:id="@+id/save_copy_activity"
+            layout="@layout/activity_save_copy" />
+
+        <include
+            android:id="@+id/save_share_activity"
+            layout="@layout/activity_share" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

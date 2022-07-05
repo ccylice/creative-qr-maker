@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/layout_create_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/sss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/tre"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_below="@id/web_input"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="100dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/www"
+                        android:layout_width="90dp"
+                        android:layout_height="32dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/wem_com_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="www."
+                        android:textColor="@color/web_text_color" />
+
+                    <RadioButton
+                        android:id="@+id/com"
+                        android:layout_width="92dp"
+                        android:layout_height="32dp"
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/wem_com_bg"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text=".com"
+                        android:textColor="@color/web_text_color" />
+
+                </RadioGroup>
+
+                <include
+                    android:id="@+id/include_icon"
+                    layout="@layout/layout_create_category" />
+
+                <TextView
+                    android:id="@+id/url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/include_icon"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/url"
+                    android:textColor="#999999 " />
+
+                <EditText
+                    android:id="@+id/web_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/url"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/cale_edit_bg"
+                    android:gravity="left|center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/web_create"
+                    android:layout_width="220dp"
+                    android:layout_height="54dp"
+                    android:layout_below="@+id/tre"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="189dp"
+                    android:background="@drawable/create_bg"
+                    android:gravity="center"
+                    android:text="Create"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

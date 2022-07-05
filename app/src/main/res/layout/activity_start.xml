@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp_bg"
+    tools:context="com.smart.smartqreditor.StartActivity">
+
+    <ImageView
+        android:id="@+id/ttt"
+        android:layout_width="187dp"
+        android:layout_height="165dp"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/sp_logo" />
+
+    <ImageView
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ttt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="66dp"
+        android:src="@drawable/sp_text" />
+
+</RelativeLayout>
